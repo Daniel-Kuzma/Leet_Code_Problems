@@ -6,6 +6,7 @@ Repository with leet code programs
 ## Database
 |  |
 | ------- |
+| [1148-article-views-i](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/1148-article-views-i) |
 | [1667-fix-names-in-a-table](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/1667-fix-names-in-a-table) |
 | [1873-calculate-special-bonus](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/1873-calculate-special-bonus) |
 <!---LeetCode Topics End-->
