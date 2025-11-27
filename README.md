@@ -9,6 +9,7 @@ Repository with leet code programs
 | [0176-second-highest-salary](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/0176-second-highest-salary) |
 | [0177-nth-highest-salary](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/0177-nth-highest-salary) |
 | [0183-customers-who-never-order](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/0183-customers-who-never-order) |
+| [0184-department-highest-salary](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/0184-department-highest-salary) |
 | [0595-big-countries](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/0595-big-countries) |
 | [1148-article-views-i](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/1148-article-views-i) |
 | [1517-find-users-with-valid-e-mails](https://github.com/Daniel-Kuzma/Leet_Code_Problems/tree/master/1517-find-users-with-valid-e-mails) |
