@@ -22,7 +22,7 @@ import pandas as pd
     return scores[["score", "rank"]]"""
 
 
-def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
+"""def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
     scores["rank"] = None
     if scores["score"].count() == 0: return scores[["score", "rank"]]
     
@@ -43,5 +43,16 @@ def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
             return pom
 
     scores["rank"] = scores.apply(funkcja_rankingu, axis = 1)
+
+    return scores[["score", "rank"]]
+"""
+
+def order_scores(scores: pd.DataFrame) -> pd.DataFrame:
+    scores["rank"] = None
+    if scores["score"].count() == 0: return scores[["score", "rank"]]
+
+    scores = scores["score"].sort_values(ascending = False).reset_index()
+    
+    scores["rank"] = scores["score"].rank(method='dense', ascending=False)
 
     return scores[["score", "rank"]]
